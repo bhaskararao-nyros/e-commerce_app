@@ -1,0 +1,150 @@
+.dropdown-menu li a {
+	cursor: pointer!important;
+}
+#loginimg {
+	margin-left: 365px;
+}
+.panel-default {
+	padding: 50px;
+	width: 50%;
+	margin: 100px;
+	margin-left: 300px;
+	box-shadow: 0px 3px 12px #d6852f;
+	margin-top: 15px;
+}
+.inputcontrol {
+	border:none;
+	border-bottom: 1px solid #d6852f;
+	height: 50px;
+	border-radius: 0px;
+	box-shadow: none;
+}
+#heading {
+	margin: 0px;
+	margin-bottom: 25px;
+	opacity: 0.5;
+}
+#nametext, #passtext, #emailtext, #cnftext {
+	color: #d6852f;
+}
+#nameErr, #passErr, #emailErr, #cnfErr {
+	color: red;
+}
+#login_btn {
+	border-color: #d6852f;
+	background-color: #d6852f;
+	margin-top: 15px;
+}
+.navbar-inverse {
+	border-radius: 0px;
+}
+#editproductimage, #productimage {
+  color: transparent;
+}
+#price, #editprice {
+	margin-left: 64px;
+}
+#images {
+	display: table-cell;
+	position: relative;
+}
+#images img {
+	padding: 3px;
+}
+td #dispimg {
+	padding: 3px;
+}
+#images img:hover {
+	box-shadow: 1px 1px 8px grey;
+	cursor: pointer;
+}
+td #dispimg:hover {
+	box-shadow: 1px 1px 8px grey;
+	cursor: pointer;
+}
+#images .glyphicon-remove-sign {
+	position: absolute;
+    top: -6px;
+    right: -2px;
+    z-index: 100;
+    font-size: 17px;
+    color: deeppink;
+    cursor: pointer;
+}
+td,th {
+	padding: 10px;
+}
+.badge {
+	background-color: orange;
+	border-radius: 5px;
+	font-size: 20px;
+	border:1px solid;
+}
+#logout a {
+	color: white;
+}
+.text-danger {
+	color: red;
+}
+ul li {
+	list-style: none;
+}
+#categories {
+	width: 40% !important;
+}
+#subcategories {
+	width: 45% !important;
+}
+#categorysmodal {
+	width: 115% !important;
+}
+.sidenav {
+    height: 100%;
+    width: 335px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -40px;
+    background-color: #323232;
+    color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    margin-left: -253px;
+    cursor: pointer;
+}
+.sidenav ul li {
+	padding: 10px;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    cursor: pointer;
+}
+#main {
+    transition: margin-left .5s;
+    /*margin-left: 190px;*/
+}
+/*.width  sidenav addclass width on click
+{
+	width: 150px;
+}*/
+.margin  /*sidenav addclass margin on click*/
+{
+	margin-left: 190px;
+}
+.marginleft {
+	margin-left: 0px;
+}
+.sidenav ul li span {
+	margin-left: 30px;
+}
+.sidenav ul .categoriesli:hover {
+	background-color: #ccc;
+}
+#maincat {
+	margin-left: 33px;
+}
+#selectsub {
+	margin-left: 3px;
+}

@@ -1,0 +1,204 @@
+@font-face 
+{
+	font-family: "myFont";
+	src: url('../fonts/SF_Collegiate.ttf') format('truetype');
+}
+@font-face 
+{
+	font-family: "myFont1";
+	src: url('../fonts/SEASRN__.ttf') format('truetype');
+}
+#cart {
+	padding: 20px;
+}
+.navbar-default {
+	background-color:  #d52732 !important;
+	height: 30px !important;
+}
+.navbar-right {
+	padding: 8px;
+	padding-right: 34px;
+}
+.navbar-nav li a, .navbar-brand span{
+	color: white !important;
+}
+#price {
+	color: darkred;
+	font-weight: bold;
+}
+.panel-heading {
+	background-color: #d52732 !important;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	color: white !important;
+}
+#contact {
+	font-size: 24px;
+}
+#slider {
+	padding: 10px;
+	cursor: pointer;
+}
+#discount {
+	padding-top: 10px;
+}
+#discount h1, #discount h3 {
+	font-family: "myFont";
+}
+#discount h1 {
+	font-size: 85px;
+	color: orangered;
+}
+#discount small {
+	color: orangered;
+}
+#discount h3 {
+	color: coral;
+	font-size: 35px;
+}
+#discount p {
+	color: orangered;
+	font-weight: bold;
+}
+#festive {
+	font-family: "myFont1";
+	color:#e6643e;
+}
+.carousel-control.left, .carousel-control.right {
+	background-image:none !important;
+}
+#offerimg {
+	-ms-transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+    transform: rotate(7deg);
+}
+#loginpanel {
+	width: 31%;
+	padding: 20px;
+	background-color: mintcream;
+	margin-left: 400px;
+	margin-top: 20px;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px orange;
+}
+#login {
+	margin-top: 1px;
+}
+#new, #suits {
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid #000; 
+   line-height: 0.1em;
+   margin: 10px 0 20px;
+}
+#new span {
+    background:mintcream; 
+    padding:0 10px; 
+}
+.form-control:focus {
+	border-color: orange;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px orange;
+}
+#login_btn {
+	border-color:  #CF8585 ;
+	background-color:  #f6a079 ;
+	color: black;
+}
+#loginimage {
+	margin-left: 477px;
+}
+input.ng-invalid.ng-dirty {
+	border-color: red;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 5px red;
+}
+.error {
+	color: red;
+}
+#firstrow {
+	padding: 5px;
+}
+#suits {
+   width: 97%; 
+   text-align: center; 
+   border-bottom: 1px solid #ccc; 
+   line-height: 0.1em;
+   margin: 13px 19px 33px;
+}
+#suits span {
+    background:white; 
+    padding:0 10px;
+    font-family: "myFont1"; 
+}
+#firstrow:hover {
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 5px orange;
+	border-color: orange;
+	cursor: pointer;
+}
+#siderow {
+	cursor: pointer;
+}
+#productImages .label-default {
+	background-color: orange;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+#offerimages, #newproducts {
+	padding: 5px;
+}
+#productname {
+	margin-left: 13px;
+	margin-top: 0px !important;
+}
+.starrr { display: inline-block; }
+
+.starrr i {
+  font-size: 16px;
+  padding: 0 1px;
+  cursor: pointer;
+  color: #ffd119;
+}
+#smallimages {
+	padding: 5px;
+}
+#smallimages:hover {
+	border:2px solid orange;
+	cursor: pointer;
+}
+#offerimages a:hover {
+	text-decoration: none;
+}
+#offerimages:hover, #newproducts:hover {
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 6px orangered;
+	border-color: orangered;
+}
+#addcart {
+	padding: 3px 40px;
+}
+#cartcount {
+	color: white;
+	background-color: red;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 5px orange;
+}
+.easyzoom {
+    float: left;
+}
+.easyzoom #bigimage {
+    display: block;
+}
+
+
+.easyzoom {
+    display: inline-block;
+}
+.easyzoom #bigimage {
+    vertical-align: bottom;
+}
+.glyphicon-star {
+	color: orange;
+}
+#progressbar {
+	margin: 2px;
+}
+#reviewimage {
+	cursor: pointer;
+}

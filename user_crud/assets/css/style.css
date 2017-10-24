@@ -1,0 +1,40 @@
+.dropdown-menu li a {
+	cursor: pointer!important;
+}
+img {
+	margin-left: 365px;
+}
+.panel-default {
+	padding: 50px;
+	width: 50%;
+	margin: 100px;
+	margin-left: 300px;
+	box-shadow: 0px 3px 12px #d6852f;
+	margin-top: 15px;
+}
+.inputcontrol {
+	border:none;
+	border-bottom: 1px solid #d6852f;
+	height: 50px;
+	border-radius: 0px;
+	box-shadow: none;
+}
+#heading {
+	margin: 0px;
+	margin-bottom: 25px;
+	opacity: 0.5;
+}
+#nametext, #passtext, #emailtext, #cnftext {
+	color: #d6852f;
+}
+#nameErr, #passErr, #emailErr, #cnfErr {
+	color: red;
+}
+#login_btn {
+	border-color: #d6852f;
+	background-color: #d6852f;
+	margin-top: 15px;
+}
+.navbar-inverse {
+	border-radius: 0px;
+}
